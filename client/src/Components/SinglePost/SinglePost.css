@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper {
+    margin: 20px;
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+    color: teal;
+}
+
+.singlePostIcon:last-child {
+    color: tomato;
+}
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.singlePostAuthor {
+    margin-left: 5px;
+}
+
+.singlePostDesc {
+    color: #666;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.updateInput{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    border:1px solid #666;
+    text-align: center;
+}
+
+.Desc{
+    padding: 10px;
+    text-align: start;
+    height: 300px;
+    resize: none;
+}

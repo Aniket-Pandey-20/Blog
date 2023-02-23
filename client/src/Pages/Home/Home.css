@@ -1,0 +1,11 @@
+.homeSection2{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.specificHeading{
+    font-family: 'Philosopher', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}

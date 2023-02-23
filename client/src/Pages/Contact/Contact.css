@@ -1,0 +1,10 @@
+.contactWraper{
+    width: 100vw;
+    height: 92.4vh;
+    background: url('../../../public//img/footer-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

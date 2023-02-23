@@ -1,0 +1,7 @@
+.postsContainer{
+    min-width:70vw;
+    margin:20px;
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
